@@ -1,0 +1,55 @@
+*{
+    margin :0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Ledger', serif;
+}
+
+h2{
+    // font-size: 30px;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    font-size: 17px;
+    line-height: 1.5rem;
+    padding: 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.p-all{
+    padding: 40px 100px;
+}
+
+.p-container-all{
+    padding: 25px 30px;
+}
+
+.m-b{
+    margin-bottom: 25px;
+}
+
+.flex-sa{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-se{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
