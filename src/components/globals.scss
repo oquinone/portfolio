@@ -1,3 +1,5 @@
+@import './mixins.scss';
+
 *{
     margin :0px;
     padding: 0px;
@@ -22,7 +24,14 @@ p{
 }
 
 .p-all{
-    padding: 40px 100px;
+    padding: 2.5em 6.25em;
+
+    @include breakpoint-down(medium){
+        padding:2.5em 3.25em;
+    }
+    @include breakpoint-down(small){
+        padding: 2.5em 2em;
+    }
 }
 
 .p-container-all{
