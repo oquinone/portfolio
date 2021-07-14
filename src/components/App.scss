@@ -1,4 +1,4 @@
-// @import './bkground.svg';
+@import './mixins.scss';
 
 #portfolio{
     display: flex;
@@ -23,6 +23,8 @@
     }
 
     .projects{
+        display: flex;
+        flex-flow: row wrap;
         width: 100%;
         padding: 2em 0;
         div{
@@ -31,6 +33,7 @@
 
         .projects-container{
             text-align: center;
+            padding: 1em 0;
             h2{
                 font-size: 1em;
 
@@ -48,6 +51,17 @@
             opacity: 0.3;
         }
     }
+
+    @include breakpoint-down(small){
+        h2{
+            text-align: center;
+        }
+
+        .project-images{
+            width: 250px;
+            height: 250px
+        }
+    }
 }
 
 .container{
@@ -56,5 +70,5 @@
     border-top-right-radius: 30px;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
 }
