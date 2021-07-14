@@ -96,7 +96,7 @@ class App extends Component {
                             </a>
                         </div>
                         <div id="projects-2" className="projects-container">
-                            <h2>Javascript Clock</h2>
+                            <h2>Javascript Timer</h2>
                             <a 
                                 href="https://oquinone.github.io/clock/" 
                                 target="_blank" 
