@@ -13,7 +13,7 @@
         ul{
             list-style-type: none;
             li:hover{
-                color: blue;
+                color: rgb(95, 95, 107);
                 font-size: 36px;
             }
             li{
@@ -68,18 +68,10 @@
 
 .container{
     border: 1px solid rgb(255, 255, 255);
-    // border-top-left-radius: 30px;
-    // border-top-right-radius: 30px;
-    // border-bottom-right-radius: 2px;
-    // border-bottom-left-radius: 2px;
-    // border-radius: 8px;
-    // background-color: #171717;
 
     background: rgba(44,42,42,0.75);
-box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
-backdrop-filter: blur(1.9px);
--webkit-backdrop-filter: blur(1.9px);
-border-radius: 10px;
-
-
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border-radius: 10px;
 }
