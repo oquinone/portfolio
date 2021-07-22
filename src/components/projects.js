@@ -27,20 +27,15 @@ export const Projects = () => {
                     </a>
                 </div>
                 <div className="info">
-                    <p>Created with Reactjs and styled with Sass. This project retrieves
-                        movie data from making fetch Api request to The Movie Database.
-                        JSON data is then retrieved and dispalyed on screen accordingly. 
-                        I also took advantage of Flexbox to display components correctly.
-                        It also is responsive to it will adjsut to any screen size.
+                    <p>This project was created with Reactjs & styled with Sass.
+                        This projet works by having the user enter in a Movie title.
+                        Then a HTTP request is sent to The Movie Database Api using Fetch.
+                        If a match is found a JSON object is returned, which I then display 
+                        the movie poster, movie background image, title, and description of 
+                        movie; all from the JSON object. The web app is also responsive.
+                    
                     </p>
-                    {/* <ul>
-                        <li>React</li>
-                        <li>Sass</li>
-                        <li>Flexbox</li>
-                        <li>Fetch Api</li>
-                        <li>Dipslay JSON Data</li>
-                        <li>Responsive</li>
-                    </ul> */}
+                    
                 </div>
             </div>
             <div className="projects-container">
@@ -56,17 +51,11 @@ export const Projects = () => {
                 <div className="info">
                     <p>
                         Responsive landing page created with Reactjs and Sass. 
-                        Created mixins with Sass for screen breakpoints. 
+                        I created mixins with Sass for screen breakpoints. 
                         This allowed me to make desireable changes to the styling
                         for best results in UI on any device. 
                         Also took advantage of Flexbox!
                     </p>
-                    {/* <ul>
-                        <li>React</li>
-                        <li>Sass</li>
-                        <li>Flexbox</li>
-                        <li>Responsive</li>
-                    </ul> */}
                 </div>
             </div>
             <div className="projects-container">
@@ -82,11 +71,10 @@ export const Projects = () => {
                 <div className="info">
                     <p>This landing page was more image based.
                         I had to find a way to make the images look presentable
-                        on any screen. I had to use object-fit property to make sure
-                        the images adjust on any screen size. 
+                        on any screen.
                         I also passed the images throught an image compressing
                         site to reduce the size of the images for speed.
-                        Also created with React, Sass and Flexbox.
+                        Created with React, Sass and Flexbox.
                     </p>
                 </div>
             </div>
