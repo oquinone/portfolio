@@ -3,14 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faAt } from '@fortawesome/free-solid-svg-icons'
 import { faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons'
-import './globals.scss';
-import './App.scss';
+import '../styling/globals.scss';
+import '../styling/App.scss';
 
-import Calc from './Images/Calc.png';
-import Clock from './Images/Clock.png';
-import Weather from './Images/weather.png';
-import Landing from './Images/landing.png';
-import Photo  from './Images/landingpage2.png';
+import { Projects } from './projects';
 
 class App extends Component {
     // state = {  }
@@ -54,58 +50,9 @@ class App extends Component {
                     <p>React, HTML, CSS, Sass, Bootstrap, Flexbox, Git, Agile Development Principles, Linux/Unix, Express, Mongodb</p>
                 </div>
 
-                <div id="projects" className="p-container-all container">
-                    <h2>Projects</h2><hr/>
-                    <div className="flex-se projects">
-                        <div className="projects-container">
-                            <h2>Landing Page</h2>
-                            <a 
-                                href="https://oquinone.github.io/landingpage/" 
-                                target="_blank" 
-                                rel="noreferrer">
-                                <img src={Landing} alt="Landing Page" className="project-images"/>
-                            </a>
-                        </div>
-                        <div className="projects-container">
-                            <h2>Landing Page 2</h2>
-                            <a 
-                                href="https://oquinone.github.io/landingpage-2/" 
-                                target="_blank" 
-                                rel="noreferrer">
-                                <img src={Photo} alt="Landing Page" className="project-images"/>
-                            </a>
-                        </div>
-                        <div id="projects-3" className="projects-container">
-                            <h2>Weather App</h2>
-                            <a 
-                                href="https://oquinone.github.io/weather_app/" 
-                                target="_blank" 
-                                rel="noreferrer">
-                                <img src={Weather} alt="Weather" className="project-images"/>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="flex-se projects">
-                        <div id="projects-1" className="projects-container">
-                            <h2>Javascript Calculator</h2>
-                            <a 
-                                href="https://oquinone.github.io/javascript_calculator/" 
-                                target="_blank" 
-                                rel="noreferrer">
-                                <img src={Calc} alt="Calculator" className="project-images"/>
-                            </a>
-                        </div>
-                        <div id="projects-2" className="projects-container">
-                            <h2>Javascript Timer</h2>
-                            <a 
-                                href="https://oquinone.github.io/clock/" 
-                                target="_blank" 
-                                rel="noreferrer">
-                                <img src={Clock} alt="Clock" className="project-images"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <>
+                    <Projects/>
+                </>
             </div>
         );
     }
