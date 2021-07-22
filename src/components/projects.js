@@ -26,21 +26,21 @@ export const Projects = () => {
                         <img src={Movie} alt="Movies" className="project-images"/>
                     </a>
                 </div>
-                <div>
-                    {/* <p>Created with Reactjs and styled with Sass. This project retrieves
+                <div className="info">
+                    <p>Created with Reactjs and styled with Sass. This project retrieves
                         movie data from making fetch Api request to The Movie Database.
                         JSON data is then retrieved and dispalyed on screen accordingly. 
                         I also took advantage of Flexbox to display components correctly.
                         It also is responsive to it will adjsut to any screen size.
-                    </p> */}
-                    <ul>
+                    </p>
+                    {/* <ul>
                         <li>React</li>
                         <li>Sass</li>
                         <li>Flexbox</li>
                         <li>Fetch Api</li>
                         <li>Dipslay JSON Data</li>
                         <li>Responsive</li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
             <div className="projects-container">
@@ -53,13 +53,20 @@ export const Projects = () => {
                         <img src={Landing} alt="Landing Page" className="project-images"/>
                     </a>
                 </div>
-                <div>
-                    <ul>
+                <div className="info">
+                    <p>
+                        Responsive landing page created with Reactjs and Sass. 
+                        Created mixins with Sass for screen breakpoints. 
+                        This allowed me to make desireable changes to the styling
+                        for best results in UI on any device. 
+                        Also took advantage of Flexbox!
+                    </p>
+                    {/* <ul>
                         <li>React</li>
                         <li>Sass</li>
                         <li>Flexbox</li>
                         <li>Responsive</li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
             <div className="projects-container">
@@ -72,14 +79,15 @@ export const Projects = () => {
                         <img src={Photo} alt="Landing Page" className="project-images"/>
                     </a>
                 </div>
-                <div>
-                    <ul>
-                        <li>React</li>
-                        <li>Sass</li>
-                        <li>Flexbox</li>
-                        <li>Responsive</li>
-                        <li>React-bootstrap npm package</li>
-                    </ul>
+                <div className="info">
+                    <p>This landing page was more image based.
+                        I had to find a way to make the images look presentable
+                        on any screen. I had to use object-fit property to make sure
+                        the images adjust on any screen size. 
+                        I also passed the images throught an image compressing
+                        site to reduce the size of the images for speed.
+                        Also created with React, Sass and Flexbox.
+                    </p>
                 </div>
             </div>
             <div className="projects-container">
@@ -92,13 +100,15 @@ export const Projects = () => {
                         <img src={Weather} alt="Weather" className="project-images"/>
                     </a>
                 </div>
-                <div>
-                    <ul>
-                        <li>React</li>
-                        <li>Sass</li>
-                        <li>Flexbox</li>
-                        <li>Responsive</li>
-                    </ul>
+                <div className="info">
+                    <p>
+                        This weather app I created was to learn how to make Api calls.
+                        I struggled for a while trying to understand the useEffect hook
+                        in react. I had to find a way to call useEffect everytime the 
+                        user entered in a City. Through perseverance I succeded! 
+                        I then put all the calls inside a carousel allowing the user
+                        to see all their weather information.
+                    </p>
                 </div>
             </div>
             <div className="projects-container">
@@ -111,13 +121,12 @@ export const Projects = () => {
                         <img src={Calc} alt="Calculator" className="project-images"/>
                     </a>
                 </div>
-                <div>
-                    <ul>
-                        <li>React</li>
-                        <li>Sass</li>
-                        <li>Flexbox</li>
-                        <li>Responsive</li>
-                    </ul>
+                <div className="info">
+                    <p>I created this Calculator when I was working on freeCodeCamps
+                        Front End Development Certificate. I build it using reactjs 
+                        where I had to carefully take care of state to update the screen
+                        accordingly to the users buttons clicks. 
+                    </p>
                 </div>
             </div>
             <div className="projects-container">
@@ -130,13 +139,12 @@ export const Projects = () => {
                         <img src={Clock} alt="Clock" className="project-images"/>
                     </a>
                 </div>
-                <div>
-                    <ul>
-                        <li>React</li>
-                        <li>Sass</li>
-                        <li>Flexbox</li>
-                        <li>Responsive</li>
-                    </ul>
+                <div className="info"> 
+                    <p>
+                        This also was a project freeCodeCamps Front End Certificate.
+                        Very easy project and I liked the way the CSS looks. Thought
+                        it was worth putting on here. Created with Reactjs and Sass. 
+                    </p>
                 </div>
             </div>
         </div>
