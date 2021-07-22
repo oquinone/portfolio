@@ -3,11 +3,11 @@
 .projects{
     display: flex;
     flex-flow: column nowrap;
-    // justify-content: space-evenly;
     align-items: center;
     width: 100%;
     padding: 2em 0;
     @include container();
+    // border: 1px solid red;
 
     &-title{
         width: 95%;
@@ -24,9 +24,7 @@
         justify-content: space-evenly;
         align-items: center;
         padding: 1em 0;
-        width: 80%;
-        // border: 1px solid #ffff;
-        // border-top: 1px solid #ffff;
+        width: 100%;
         border-bottom: 1px solid #ffff;
         border-radius: 9px;
         margin: 1em auto;
@@ -50,8 +48,10 @@
         }
 
         .info{
-            // border: 1px solid red;
             margin: 1em 5em;
+            @include breakpoint-down(small){
+                margin: .5em .8em;
+            }
         }
     }
 }
