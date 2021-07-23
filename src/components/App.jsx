@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
-import { faAt } from '@fortawesome/free-solid-svg-icons'
 import { faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons'
 import '../styling/globals.scss';
 import '../styling/App.scss';
@@ -29,7 +28,6 @@ class App extends Component {
                             <li> <FontAwesomeIcon icon={ faGithubSquare }/> 
                             </li>
                         </a>
-                        <li><FontAwesomeIcon icon={ faAt }/></li>
                     </ul>
                 </div>
                 <div id="portfolio-about" className="p-container-all m-b container">
@@ -47,7 +45,7 @@ class App extends Component {
 
                 <div id="portfolio-tech" className="p-container-all m-b container">
                     <h2>Technologies</h2><hr/>
-                    <p>React, HTML, CSS, Sass, Bootstrap, Flexbox, Git, Agile Development Principles, Linux/Unix, Express, Mongodb</p>
+                    <p>React, HTML, CSS, Sass, Bootstrap, Flexbox, Git, Agile Development Principles, Linux/Unix, Express, Mongodb, React-Redux</p>
                 </div>
 
                 <>
