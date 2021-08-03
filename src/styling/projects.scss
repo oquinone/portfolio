@@ -33,28 +33,43 @@
             border: none;
         }
 
-        h2{
-            text-align: center;
-            font-size: 1.5em;
-            padding: .5em 0;
-        }
+        .title-image-container{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
 
-        .project-images{
-            width: 15.625em;
-            height: 15.625em;
-            object-fit: cover;
-            object-position: center;
-            border-radius: 8px;
+            @include breakpoint-down(small){
+                width: 100%;
+            }
 
-            &:hover{
-                opacity: 0.3;
+            h2{
+                text-align: center;
+                font-size: 1.5em;
+                padding: .5em 0;
+            }
+    
+            .project-images{
+                width: 15.625em;
+                height: 15.625em;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 8px;
+                text-align: center;
+    
+                &:hover{
+                    opacity: 0.3;
+                }
             }
         }
 
         .info{
-            margin: 1em 5em;
+            // margin: 1em 5em;
+            width: 50%;
             @include breakpoint-down(small){
                 margin: .5em .8em;
+                width: 100%;
             }
         }
     }
