@@ -37,9 +37,9 @@ export const Projects = () => {
                          transported to a clone like appearance of instagrams profile page on the web.
                          The user is able to uploads images to their profile, which are saved in mongodb.
                          The user can also update their bio and change their profile picture.
-                         
                     </p>
-                    
+                    <p>Tech Used: MERN Stack, Sass, React-Bootstrap, Flexbox, Redux, 
+                        Passport js, Express-Session,</p>
                 </div>
             </div>
             <div className="projects-container">
@@ -56,9 +56,9 @@ export const Projects = () => {
                     <p>
                         The goal of this project was work with a third party Api. To be able
                         to make a single request to the Api and display the JSON response data
-                        as desired. Technology used: <strong>React</strong>, Sass, Flexbox, The Movie Database Api, 
+                        as desired.
                     </p>
-                    
+                    <p>Tech used: React, Sass, Flexbox, The Movie Database Api </p>
                 </div>
             </div>
             <div className="projects-container">
@@ -75,9 +75,9 @@ export const Projects = () => {
                     <p>
                         The goal of this project was to create a responsive landing page. 
                         The responisveness is adjusted using breakpoint mixins from Sass.
-                        The site adjusts for a phone, tablet, and large monitor screen. 
-                        Tech used: React, Sass, Flexbox, React-bootstrap components
+                        The site adjusts for a phone, tablet, and large monitor screen.
                     </p>
+                    <p>Tech used: React, Sass, Flexbox, React-bootstrap components</p>
                 </div>
             </div>
             <div className="projects-container">
@@ -96,8 +96,8 @@ export const Projects = () => {
                         image based landing page that is respnonsive. The images displayed 
                         on screen have been compressed to its smallest form to try 
                         and improve the speed of the site.
-                        Tech used: React, Sass, Flexbox
                     </p>
+                    <p>Tech used: React, Sass, Flexbox</p>
                 </div>
             </div>
             <div className="projects-container">
@@ -115,8 +115,8 @@ export const Projects = () => {
                         The goal of this project was similar to the Movie Database Project. 
                         To be able to make request to a third party Api and display the 
                         desired results on screen. 
-                        Tech: Reactjs, The Open Weather Api
                     </p>
+                    <p>Tech Used: Reactjs, The Open Weather Api</p>
                 </div>
             </div>
             <div className="projects-container">
